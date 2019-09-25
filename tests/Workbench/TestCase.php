@@ -9,5 +9,5 @@ class TestCase extends PlatformTestCase
 {
     use RefreshDatabase;
 
-    protected $installs = ['superv.modules.workbench'];
+    protected $installs = ['addons/superv/modules/workbench'];
 }

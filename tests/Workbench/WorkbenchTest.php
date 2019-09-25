@@ -6,6 +6,6 @@ class WorkbenchTest extends TestCase
 {
     function test__module_is_installed()
     {
-        $this->assertNotNull(superv('addons')->get('superv.modules.workbench'));
+        $this->assertNotNull(superv('addons')->get('workbench'));
     }
 }

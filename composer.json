@@ -1,14 +1,16 @@
 {
-    "name": "superv/workbench-module",
-    "type": "superv-addon",
+    "name": "superv/workbench",
+    "type": "superv-module",
     "autoload": {
         "psr-4": {
-            "SuperV\\Modules\\Workbench\\": "src/"
+            "SuperV\\Modules\\Workbench\\": "src/",
+            "SuperV\\Platform\\Domains\\Resource\\Form\\v2\\": "src/Domains/Form/v2"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests"
+            "Tests\\": "tests",
+            "Tests\\Platform\\Domains\\Resource\\Form\\v2\\": "tests/Workbench/FormV2"
         }
     },
     "require": {
